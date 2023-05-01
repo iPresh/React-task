@@ -1,70 +1,25 @@
-# Getting Started with Create React App
+### Five significant features of react include the following  
+1. JSX - JavaScript Syntax Extension  
+2. Virtual Document Object Model (VDOM)  
+3. One-way data binding
+4. Support for various extensions
+5. Component-based
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Five advantages of react include:
+1. It can be used with other frameworks
+2. ReactJS helps developers create awesome User Interfaces (UI)
+3. It is SEO-friendly
+4. It creates its own virtual DOM
+5. ReactJS ensures faster rendering 
 
-## Available Scripts
+### Meta, formerly Facebook, owns React. Jordan Walke, a software engineer at Facebook, created React.  
 
-In the project directory, you can run:
+### Notable differences between HTML & JSX  
+- In JSX, you need to return a single parent element. However, HTML allows you to do whatever you want.
+- You can implement JavaScript directly in JSX, but you can't do that in HTML. For HTML, you'll need a script tag or external Javascript file to implement it.
+- Self-closing tags in JSX must have the forward slash. On the other hand, the forward slash is optional in HTML 
+- Event listeners in JSX are written in camelCase. For example, ``onClick`` in JSX, whereas in HTML, they are written in lowercase - ``onclick``.
+- In JSX, you use ``className`` and ``HTMLFor`` attributes. You can't use ``class`` and ``for`` since both are reserved keywords in JavaScript. But in HTML, you can use class and for attributes.   
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Why can’t browsers read JSX?  
+Browsers can't read JSX because it's not a valid JavaScript. Browsers can only read JavaScript objects but JSX in not a regular JavaScript object
